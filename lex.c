@@ -1,14 +1,6 @@
 #include "token.h"
 #include <ctype.h>
 #include <stdio.h>
-<<<<<<< HEAD
-
-int
-lex (char *s)
-{
-  while (isspace (*s))
-    s++;
-=======
 #include <string.h>
 
 extern void* cy_malloc (size_t size);
@@ -37,17 +29,12 @@ lex (char *s)
   
   while (isspace (*s++))
     ;
->>>>>>> 1abc17f (lex nemeral)
 
   switch (*s)
     {
     default:
-<<<<<<< HEAD
-      return *s;
-=======
       end = s;
       token = new_token (*s, start, end);
       return token;
->>>>>>> 1abc17f (lex nemeral)
     }
 }
