@@ -1,2 +1,2 @@
 # cy-lang
-K&amp;R style C dialect
+K&amp;R style-like C dialect
