@@ -5,12 +5,12 @@ typedef struct
 {
   enum
   {
-    INT,
+    INT = 128,
     FLOAT
   } type;
   char *lexeme;
 } token_t;
 
-extern token_t new_token (int type, void* start, void* end);
+extern token_t new_token (int type, char* start, char* end);
 
 #endif

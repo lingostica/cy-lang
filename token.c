@@ -4,7 +4,7 @@
 extern void *cy_malloc (size_t size);
 
 token_t
-new_token (int type, void* start, void* end)
+new_token (int type, char* start, char* end)
 {
   token_t token;
 

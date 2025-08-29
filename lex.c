@@ -11,6 +11,7 @@ lex (char *s)
   char *start = s, *end;
   token_t token;
 
+  // Reference: lex & yacc 2nd edition, O'Reilly, 21 page
   if (*s == '.' || isdigit (*s))
     {
       while ((*++s != EOF && isdigit (*s)))
