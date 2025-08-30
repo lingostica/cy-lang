@@ -8,7 +8,8 @@ parse (char *s)
 {
   token_t token;
 
-  token = lex (s);
-  printf ("%d %s\n", token.type, token.lexeme);
+      token = lex (s);
+      printf ("%d %s\n", token.type, token.lexeme);
+
   return token;
 }

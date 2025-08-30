@@ -1,2 +1,2 @@
 # cy-lang
-GNU style C dialect
+GNU style-like C dialect
